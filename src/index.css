@@ -23,7 +23,7 @@ a {
 }
 
 a:hover {
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 ::selection {
@@ -43,10 +43,34 @@ a:hover {
   border-radius: 2px;
 }
 
-/* Mobile */
+/* Hover effects */
+.link-btn:hover {
+  border-color: #c9a227 !important;
+  background: rgba(201, 162, 39, 0.06) !important;
+}
+
+.skill-chip:hover {
+  border-color: #c9a22755 !important;
+  color: #c9a227 !important;
+}
+
+.contact-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 20px rgba(201, 162, 39, 0.25);
+}
+
+.writing-card:hover {
+  border-color: #c9a22744 !important;
+}
+
+.substack-btn:hover {
+  background: rgba(201, 162, 39, 0.1) !important;
+}
+
+/* Mobile responsive */
 @media (max-width: 640px) {
   .nav-links {
-    gap: 12px !important;
+    gap: 10px !important;
   }
   .nav-label {
     display: none;
@@ -56,5 +80,9 @@ a:hover {
   }
   .skills-grid {
     grid-template-columns: 1fr !important;
+  }
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 24px !important;
   }
 }
