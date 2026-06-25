@@ -1,0 +1,60 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0a0a0f;
+  color: #e8e6e3;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: #c9a227;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+::selection {
+  background: #c9a22744;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333340;
+  border-radius: 2px;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .nav-links {
+    gap: 12px !important;
+  }
+  .nav-label {
+    display: none;
+  }
+  .hero-title {
+    font-size: 32px !important;
+  }
+  .skills-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
