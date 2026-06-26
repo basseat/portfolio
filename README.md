@@ -1,34 +1,22 @@
-# Portfolio - Abdulbasit Ayoade
+# Abdulbasit Ayoade
 
-Personal portfolio site built with React + Vite.
+Personal portfolio site. Built with React + Vite.
 
-## Local development
+**[Live site →](https://portfolio-basit4.vercel.app)**
 
-```bash
-npm install
-npm run dev
-```
+## About
 
-## Deploy to Vercel
+Data and business analyst with experience across fraud detection, internal controls, product analytics, and operational reporting. Currently pursuing an M.Sc. in Physics at Heidelberg University.
 
-1. Push this folder to a GitHub repo (e.g. `basseat/portfolio`)
-2. Go to [vercel.com](https://vercel.com) and sign in with GitHub
-3. Click "Add New Project" and import the repo
-4. Vercel auto-detects Vite. Click "Deploy"
-5. Done. You get a URL like `portfolio-basseat.vercel.app`
+## Projects
 
-To use a custom domain, go to Settings > Domains in Vercel.
+- **The God Metric** — PostgreSQL star schema exploring the relationship between economic development and religious decline across 190+ countries
+- **The Green Miles Problem** — Investigation into the carbon cost of last-mile delivery across the EU
+- **The Attention Paradox** — Data-driven analysis of Gen Z streaming behaviour
+- **A/B Test: Checkout Fraud** — End-to-end experimentation simulation with statistical power analysis
 
-## Deploy to Netlify (alternative)
+## Links
 
-1. Push to GitHub
-2. Go to [netlify.com](https://netlify.com) and sign in
-3. "Add new site" > "Import an existing project" > select the repo
-4. Build command: `npm run build`, publish directory: `dist`
-5. Deploy
-
-## TODO
-
-- [ ] Add your LinkedIn URL (search for `href: "#"` in App.jsx)
-- [ ] Wire up the CV download link
-- [ ] Add the dbt project once complete
+- [Newsletter (Against the Narrative)](https://basseat.substack.com)
+- [Tableau Public](https://public.tableau.com/app/profile/abdulbasit.ayoade)
+- [LinkedIn](https://www.linkedin.com/in/abdulbasitayoade)
