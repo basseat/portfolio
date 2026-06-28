@@ -6,7 +6,7 @@ Personal portfolio site. Built with React + Vite.
 
 ## About
 
-Data and business analyst with experience across fraud detection, internal controls, product analytics, and operational reporting. Currently pursuing an M.Sc. in Physics at Heidelberg University.
+Data and business analyst building analytics pipelines, dashboards, and data-driven decisions across fintech platforms. M.Sc. Computational Physics, Heidelberg University. EU Blue Card eligible.
 
 ## Projects
 
