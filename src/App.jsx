@@ -67,7 +67,7 @@ const TRANSLATIONS = {
   en: {
     tagline: "Against the Narrative",
     heroParagraph1:
-      "Since 2022, I have been exploring data to help organisations make better, more informed decisions. From fraud detection at scale across 30+ countries to building internal controls frameworks and uncovering product usage patterns, my work sits at the intersection of analytics, product, risk, and operations.",
+      "Since 2022, I have been building analytics pipelines, designing dashboards, and turning complex data into clear decisions across high-scale fintech platforms. From analysing user behaviour and conversion funnels to automating reporting workflows that serve cross-functional teams, my work sits at the intersection of data, product, and operations.",
     heroParagraph2:
       "Currently pursuing an M.Sc. in Physics at Heidelberg University, where I am sharpening my quantitative thinking while continuing to build data projects that challenge conventional narratives. I write SQL, think in pipelines, and believe the most useful analysis, whether it is a funnel breakdown or a risk model, is the one that changes how you see the problem.",
     navAbout: "About",
@@ -177,7 +177,7 @@ const TRANSLATIONS = {
   de: {
     tagline: "Against the Narrative",
     heroParagraph1:
-      "Seit 2022 arbeite ich mit Daten, um Organisationen bei besseren, fundierteren Entscheidungen zu unterstützen. Von Betrugserkennung in über 30 Ländern bis zum Aufbau interner Kontrollsysteme und der Analyse von Produktnutzungsmustern liegt meine Arbeit an der Schnittstelle von Analytics, Produkt, Risiko und Operations.",
+      "Seit 2022 entwickle ich Analytics-Pipelines, gestalte Dashboards und verwandle komplexe Daten in fundierte Entscheidungen auf hochskalierten Fintech-Plattformen. Von der Analyse von Nutzerverhalten und Conversion-Funnels bis zur Automatisierung von Berichts-Workflows für funktionsübergreifende Teams liegt meine Arbeit an der Schnittstelle von Daten, Produkt und Operations.",
     heroParagraph2:
       "Derzeit studiere ich M.Sc. Physik an der Universität Heidelberg, wo ich mein quantitatives Denken schärfe und weiterhin Datenprojekte entwickle, die gängige Annahmen hinterfragen. Ich schreibe SQL, denke in Pipelines und bin überzeugt, dass die nützlichste Analyse, ob Funnel-Analyse oder Risikomodell, diejenige ist, die den Blick auf das Problem verändert.",
     navAbout: "Über mich",
