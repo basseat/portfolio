@@ -9,15 +9,13 @@ html {
 }
 
 body {
-  background: #0a0a0f;
-  color: #e8e6e3;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 a {
-  color: #c9a227;
   text-decoration: none;
   transition: opacity 0.2s;
 }
@@ -26,63 +24,10 @@ a:hover {
   opacity: 0.85;
 }
 
-::selection {
-  background: #c9a22744;
-}
-
 ::-webkit-scrollbar {
   width: 4px;
 }
 
 ::-webkit-scrollbar-track {
   background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #333340;
-  border-radius: 2px;
-}
-
-/* Hover effects */
-.link-btn:hover {
-  border-color: #c9a227 !important;
-  background: rgba(201, 162, 39, 0.06) !important;
-}
-
-.skill-chip:hover {
-  border-color: #c9a22755 !important;
-  color: #c9a227 !important;
-}
-
-.contact-primary:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 20px rgba(201, 162, 39, 0.25);
-}
-
-.writing-card:hover {
-  border-color: #c9a22744 !important;
-}
-
-.substack-btn:hover {
-  background: rgba(201, 162, 39, 0.1) !important;
-}
-
-/* Mobile responsive */
-@media (max-width: 640px) {
-  .nav-links {
-    gap: 10px !important;
-  }
-  .nav-label {
-    display: none;
-  }
-  .hero-title {
-    font-size: 32px !important;
-  }
-  .skills-grid {
-    grid-template-columns: 1fr !important;
-  }
-  .stats-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 24px !important;
-  }
 }
